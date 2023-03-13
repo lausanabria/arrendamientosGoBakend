@@ -1,6 +1,6 @@
-create DATABASE pruebaceiba;
+create DATABASE arriendos;
 
-use pruebaceiba;
+use arriendos;
 
 create TABLE pagos(
     documentoIdentificacionArrendatario int not null,
