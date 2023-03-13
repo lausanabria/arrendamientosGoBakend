@@ -11,7 +11,7 @@ func ConexionBD() (conexion *sql.DB) {
 	controlador := "mysql"
 	usuario := "root"
 	clave := ""
-	nombreBD := "pruebaceiba"
+	nombreBD := "arriendos"
 	TnsBD := "tcp"
 	conexion, err := sql.Open(controlador, usuario+":"+clave+"@"+TnsBD+"/"+nombreBD)
 	if err != nil {
